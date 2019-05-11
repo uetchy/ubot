@@ -1,0 +1,21 @@
+{
+  "name": "ubot-fulfillment",
+  "version": 2,
+  "builds": [
+    {
+      "src": "action.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/action",
+      "dest": "action.js"
+    }
+  ],
+  "env": {
+    "SERVICE_KEY": "@ubot_service_key",
+    "TICKTICK_EMAIL": "@ubot_ticktick_email",
+    "TICKTICK_PASSWORD": "@ubot_ticktick_password"
+  }
+}

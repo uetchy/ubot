@@ -1,0 +1,20 @@
+{
+  "name": "@ubot/telegram",
+  "version": "1.0.0",
+  "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
+  "main": "src/index.js",
+  "scripts": {
+    "debug": "nodemon --inspect",
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0",
+    "telegraf": "^3.27.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  },
+  "license": "MIT"
+}

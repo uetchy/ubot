@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  telegram-bot:
+    image: telegram-bot
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - :

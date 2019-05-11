@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+  telegram-bot:
+    image: telegram-bot
+    build: .
+    environment:
+      NODE_ENV: development
+    ports:
+      - :
+      - 9229:9229
+    ## set your startup file here
+    command: node --inspect index.js

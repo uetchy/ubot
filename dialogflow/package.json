@@ -1,0 +1,22 @@
+{
+  "name": "@ubot/fulfillment",
+  "version": "0.0.0",
+  "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
+  "main": "index.js",
+  "scripts": {
+    "clean": "now rm ubot-fulfillment --safe -y",
+    "deploy": "now",
+    "logs": "now logs ubot-fulfillment.uechi.now.sh -f"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.7.0",
+    "body-parser": "^1.19.0",
+    "dialogflow-fulfillment": "uetchy/dialogflow-fulfillment-nodejs",
+    "express": "^4.16.4",
+    "ticktick-api": "RayBB/node-ticktick-api"
+  },
+  "devDependencies": {
+    "supports-color": "^6.1.0"
+  },
+  "license": "MIT"
+}
